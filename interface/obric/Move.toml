@@ -1,0 +1,9 @@
+[package]
+name = "obric-swap"
+version = "0.1.0"
+
+[dependencies]
+AptosFramework = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "72421d32d77f1877ded478e96f5b95914de1df91"}
+
+[addresses]
+obric = "c7ea756470f72ae761b7986e4ed6fd409aad183b1b2d3d2f674d979852f45c4b"

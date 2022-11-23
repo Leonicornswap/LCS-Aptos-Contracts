@@ -1,0 +1,11 @@
+[package]
+name = "Tortuga"
+version = "0.0.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "ba5fa41f82bfe3d4e314d41c39fca77131e9f208" }
+
+[addresses]
+tortuga = "0x8f396e4246b2ba87b51c0739ef5ea4f26515a98375308c31ac2ec1e42142a57f"
+
+
